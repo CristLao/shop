@@ -24,7 +24,7 @@ public class UserController
         JSONResultVo jsonResultVo = new JSONResultVo();
         jsonResultVo.setResult(user);
         if (user == null) {
-            jsonResultVo.setErrorMsg("用户名已经被 注册");
+            jsonResultVo.setErrorMsg("用户名已经被注册");
         }
         return jsonResultVo;
     }
